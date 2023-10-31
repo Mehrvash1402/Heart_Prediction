@@ -42,7 +42,7 @@ def main():
     ejection_fraction = st.number_input('Percentage of blood leaving the heart', min_value=0 , step=1)
     high_blood_pressure = st.number_input('Hypertensive| Yes or No |yes = 1 and no = 0', min_value=0, step=1)
     platelets = st.number_input('Platelet count of blood(kiloplatelets/ml)', min_value=0, step=1)
-    serum_creatinine = st.number_input('Level of Serum_cereatinine in the  blood(mg/dl)', min_value=0, step=0.01)
+    serum_creatinine = st.number_input('Level of Serum_cereatinine in the  blood(mg/dl)', min_value=0.0, step=0.01)
     serum_sodium = st.number_input('Level of Serum Sodium in the blood(mEq/L)', min_value=0, step=1)
     sex = st.number_input('Sex| Male or Female| Female = 1 and Male = 0', min_value=0, step=1)
     smoking = st.number_input('Smoke habit| Yes or No| Yes = 1 and No = 0', min_value=0, step=1)
